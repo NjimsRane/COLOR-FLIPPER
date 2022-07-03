@@ -61,6 +61,7 @@ body main h2 {
   padding: 1em;
   font-size: 2rem;
   border-radius: 10px;
+  box-shadow: inset 10px 10px 20px #111;
   color: #fff;
 }
 body main .btn {

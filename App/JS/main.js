@@ -6,7 +6,7 @@ btn.addEventListener("click", () => {
   const randomColor = randomNumber();
 
   span.style.color = colors[randomColor];
-  span.textContent = colors[randomColor];
+  span.textContent = colors[randomColor].toUpperCase();
   document.body.style.backgroundColor = colors[randomColor];
 });
 
